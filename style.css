@@ -9,7 +9,7 @@
 body {
     font-family: Poppins, sans-serif;
     font-size: 20px;
-    background-color: #053C5E;
+    background-color: white;
     color: white;
     margin: 5vh auto;
     width: 80vw;
@@ -26,10 +26,15 @@ h1, h2 {
     text-align: center;
 }
 
+h1 {
+    color: #01BAEF;
+}
+
 a {
     font-weight: 400;
     text-decoration: none;
     color: white;
+    margin: 1rem;
 }
 
 #projects {
@@ -40,4 +45,13 @@ a {
 
 .list {
     flex: 1;
+    background-color: #01BAEF;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
