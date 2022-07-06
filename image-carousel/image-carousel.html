@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Carousel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="image-carousel.css">
+</head>
+
+<body>
+    <main>
+        <div id="slide-container">
+            <div class="slide">
+                <div class="slide-number">1/5</div>
+                <img class="slide-image" src="img/salad.jpg">
+                <div class="slide-caption">Salad</div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-number">2/5</div>
+                <img class="slide-image" src="img/salad-2.jpg">
+                <div class="slide-caption">Salad</div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-number">3/5</div>
+                <img class="slide-image" src="img/pasta.jpg">
+                <div class="slide-caption">Pasta</div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-number">4/5</div>
+                <img class="slide-image" src="img/coffee.jpg">
+                <div class="slide-caption">Coffee beans</div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-number">5/5</div>
+                <img class="slide-image" src="img/veg.jpg">
+                <div class="slide-caption">Fresh vegetables</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"></a>
+            <a class="next" onclick="plusSlides(1)"></a>
+        </div>
+
+        <div id="buttons">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </main>
+</body>
+
+</html>
